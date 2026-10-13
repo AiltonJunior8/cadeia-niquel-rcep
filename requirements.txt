@@ -1,0 +1,11 @@
+pandas>=2.2
+pyarrow>=16
+polars>=1.0          # só para refazer extracao.bilateral_total() a partir do parquet bruto
+numpy>=1.26
+matplotlib>=3.9
+geopandas>=1.0       # mapas
+country_converter>=1.2  # só para refazer data/referencia/paises.csv
+openpyxl>=3.1
+xlsxwriter>=3.1
+jupyter
+nbconvert

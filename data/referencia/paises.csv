@@ -1,0 +1,228 @@
+iso3,nome_oec,subregiao_onu,macrorregiao,nome,rcep,asean
+abw,Aruba,Caribbean,América Latina e Caribe,Aruba,False,False
+afg,Afghanistan,Southern Asia,Sul da Ásia,Afeganistão,False,False
+ago,Angola,Middle Africa,África,Angola,False,False
+aia,Anguilla,Caribbean,América Latina e Caribe,Anguila,False,False
+alb,Albania,Southern Europe,Europa,Albânia,False,False
+and,Andorra,Southern Europe,Europa,Andorra,False,False
+are,United Arab Emirates,Western Asia,Ásia Ocidental e Central,Emirados Árabes,False,False
+arg,Argentina,South America,América Latina e Caribe,Argentina,False,False
+arm,Armenia,Western Asia,Ásia Ocidental e Central,Armênia,False,False
+asm,American Samoa,Polynesia,Oceania,Samoa Americana,False,False
+atf,French Southern Territories,Eastern Africa,África,Terras Austrais Francesas,False,False
+atg,Antigua and Barbuda,Caribbean,América Latina e Caribe,Antígua e Barbuda,False,False
+aus,Australia,Australia and New Zealand,Oceania,Austrália,True,False
+aut,Austria,Western Europe,Europa,Áustria,False,False
+aze,Azerbaijan,Western Asia,Ásia Ocidental e Central,Azerbaijão,False,False
+bdi,Burundi,Eastern Africa,África,Burundi,False,False
+bel,Belgium,Western Europe,Europa,Bélgica,False,False
+ben,Benin,Western Africa,África,Benin,False,False
+bes,Bonaire,Caribbean,América Latina e Caribe,Bonaire,False,False
+bfa,Burkina Faso,Western Africa,África,Burkina Faso,False,False
+bgd,Bangladesh,Southern Asia,Sul da Ásia,Bangladesh,False,False
+bgr,Bulgaria,Eastern Europe,Europa,Bulgária,False,False
+bhr,Bahrain,Western Asia,Ásia Ocidental e Central,Bahrein,False,False
+bhs,Bahamas,Caribbean,América Latina e Caribe,Bahamas,False,False
+bih,Bosnia and Herzegovina,Southern Europe,Europa,Bósnia e Herzegovina,False,False
+blm,Saint Barthélemy,Caribbean,América Latina e Caribe,São Bartolomeu,False,False
+blr,Belarus,Eastern Europe,Europa,Belarus,False,False
+blz,Belize,Central America,América Latina e Caribe,Belize,False,False
+bmu,Bermuda,Northern America,América do Norte,Bermudas,False,False
+bol,Bolivia,South America,América Latina e Caribe,Bolívia,False,False
+bra,Brazil,South America,América Latina e Caribe,Brasil,False,False
+brb,Barbados,Caribbean,América Latina e Caribe,Barbados,False,False
+brn,Brunei,South-eastern Asia,Sudeste Asiático,Brunei,True,True
+btn,Bhutan,Southern Asia,Sul da Ásia,Butão,False,False
+bwa,Botswana,Southern Africa,África,Botsuana,False,False
+caf,Central African Republic,Middle Africa,África,República Centro-Africana,False,False
+can,Canada,Northern America,América do Norte,Canadá,False,False
+cck,Cocos (Keeling) Islands,Australia and New Zealand,Oceania,Ilhas Cocos (Keeling),False,False
+che,Switzerland,Western Europe,Europa,Suíça,False,False
+chl,Chile,South America,América Latina e Caribe,Chile,False,False
+chn,China,Eastern Asia,Ásia Oriental,China,True,False
+civ,Cote d'Ivoire,Western Africa,África,Costa do Marfim,False,False
+cmr,Cameroon,Middle Africa,África,Camarões,False,False
+cod,Democratic Republic of the Congo,Middle Africa,África,RD Congo,False,False
+cog,Republic of the Congo,Middle Africa,África,República do Congo,False,False
+cok,Cook Islands,Polynesia,Oceania,Ilhas Cook,False,False
+col,Colombia,South America,América Latina e Caribe,Colômbia,False,False
+com,Comoros,Eastern Africa,África,Comores,False,False
+cpv,Cape Verde,Western Africa,África,Cabo Verde,False,False
+cri,Costa Rica,Central America,América Latina e Caribe,Costa Rica,False,False
+cub,Cuba,Caribbean,América Latina e Caribe,Cuba,False,False
+cuw,Curaçao,Caribbean,América Latina e Caribe,Curaçao,False,False
+cxr,Christmas Island,Australia and New Zealand,Oceania,Ilha Christmas,False,False
+cym,Cayman Islands,Caribbean,América Latina e Caribe,Ilhas Cayman,False,False
+cyp,Cyprus,Western Asia,Ásia Ocidental e Central,Chipre,False,False
+cze,Czechia,Eastern Europe,Europa,Tchéquia,False,False
+deu,Germany,Western Europe,Europa,Alemanha,False,False
+dji,Djibouti,Eastern Africa,África,Djibuti,False,False
+dma,Dominica,Caribbean,América Latina e Caribe,Dominica,False,False
+dnk,Denmark,Northern Europe,Europa,Dinamarca,False,False
+dom,Dominican Republic,Caribbean,América Latina e Caribe,Rep. Dominicana,False,False
+dza,Algeria,Northern Africa,África,Argélia,False,False
+ecu,Ecuador,South America,América Latina e Caribe,Equador,False,False
+egy,Egypt,Northern Africa,África,Egito,False,False
+eri,Eritrea,Eastern Africa,África,Eritreia,False,False
+esp,Spain,Southern Europe,Europa,Espanha,False,False
+est,Estonia,Northern Europe,Europa,Estônia,False,False
+eth,Ethiopia,Eastern Africa,África,Etiópia,False,False
+fin,Finland,Northern Europe,Europa,Finlândia,False,False
+fji,Fiji,Melanesia,Oceania,Fiji,False,False
+flk,Falkland Islands,South America,América Latina e Caribe,Ilhas Malvinas,False,False
+fra,France,Western Europe,Europa,França,False,False
+fsm,Micronesia,Micronesia,Oceania,Micronésia,False,False
+gab,Gabon,Middle Africa,África,Gabão,False,False
+gbr,United Kingdom,Northern Europe,Europa,Reino Unido,False,False
+geo,Georgia,Western Asia,Ásia Ocidental e Central,Geórgia,False,False
+gha,Ghana,Western Africa,África,Gana,False,False
+gib,Gibraltar,Southern Europe,Europa,Gibraltar,False,False
+gin,Guinea,Western Africa,África,Guiné,False,False
+gmb,Gambia,Western Africa,África,Gâmbia,False,False
+gnb,GuineaBissau,Western Africa,África,Guiné-Bissau,False,False
+gnq,Equatorial Guinea,Middle Africa,África,Guiné Equatorial,False,False
+grc,Greece,Southern Europe,Europa,Grécia,False,False
+grd,Grenada,Caribbean,América Latina e Caribe,Granada,False,False
+grl,Greenland,Northern America,América do Norte,Groenlândia,False,False
+gtm,Guatemala,Central America,América Latina e Caribe,Guatemala,False,False
+gum,Guam,Micronesia,Oceania,Guam,False,False
+guy,Guyana,South America,América Latina e Caribe,Guiana,False,False
+hkg,Hong Kong,Eastern Asia,Ásia Oriental,Hong Kong,False,False
+hnd,Honduras,Central America,América Latina e Caribe,Honduras,False,False
+hrv,Croatia,Southern Europe,Europa,Croácia,False,False
+hti,Haiti,Caribbean,América Latina e Caribe,Haiti,False,False
+hun,Hungary,Eastern Europe,Europa,Hungria,False,False
+idn,Indonesia,South-eastern Asia,Sudeste Asiático,Indonésia,True,True
+ind,India,Southern Asia,Sul da Ásia,Índia,False,False
+iot,British Indian Ocean Territory,Eastern Africa,África,Território Britânico do Oceano Índico,False,False
+irl,Ireland,Northern Europe,Europa,Irlanda,False,False
+irn,Iran,Southern Asia,Sul da Ásia,Irã,False,False
+irq,Iraq,Western Asia,Ásia Ocidental e Central,Iraque,False,False
+isl,Iceland,Northern Europe,Europa,Islândia,False,False
+isr,Israel,Western Asia,Ásia Ocidental e Central,Israel,False,False
+ita,Italy,Southern Europe,Europa,Itália,False,False
+jam,Jamaica,Caribbean,América Latina e Caribe,Jamaica,False,False
+jor,Jordan,Western Asia,Ásia Ocidental e Central,Jordânia,False,False
+jpn,Japan,Eastern Asia,Ásia Oriental,Japão,True,False
+kaz,Kazakhstan,Central Asia,Ásia Ocidental e Central,Cazaquistão,False,False
+ken,Kenya,Eastern Africa,África,Quênia,False,False
+kgz,Kyrgyzstan,Central Asia,Ásia Ocidental e Central,Quirguistão,False,False
+khm,Cambodia,South-eastern Asia,Sudeste Asiático,Camboja,True,True
+kir,Kiribati,Micronesia,Oceania,Kiribati,False,False
+kna,Saint Kitts and Nevis,Caribbean,América Latina e Caribe,São Cristóvão e Névis,False,False
+kor,South Korea,Eastern Asia,Ásia Oriental,Coreia do Sul,True,False
+kwt,Kuwait,Western Asia,Ásia Ocidental e Central,Kuwait,False,False
+lao,Laos,South-eastern Asia,Sudeste Asiático,Laos,True,True
+lbn,Lebanon,Western Asia,Ásia Ocidental e Central,Líbano,False,False
+lbr,Liberia,Western Africa,África,Libéria,False,False
+lby,Libya,Northern Africa,África,Líbia,False,False
+lca,Saint Lucia,Caribbean,América Latina e Caribe,Santa Lúcia,False,False
+lka,Sri Lanka,Southern Asia,Sul da Ásia,Sri Lanka,False,False
+lso,Lesotho,Southern Africa,África,Lesoto,False,False
+ltu,Lithuania,Northern Europe,Europa,Lituânia,False,False
+lux,Luxembourg,Western Europe,Europa,Luxemburgo,False,False
+lva,Latvia,Northern Europe,Europa,Letônia,False,False
+mac,Macau,Eastern Asia,Ásia Oriental,Macau,False,False
+maf,Saint Martin,Caribbean,América Latina e Caribe,São Martinho,False,False
+mar,Morocco,Northern Africa,África,Marrocos,False,False
+mda,Moldova,Eastern Europe,Europa,Moldávia,False,False
+mdg,Madagascar,Eastern Africa,África,Madagascar,False,False
+mdv,Maldives,Southern Asia,Sul da Ásia,Maldivas,False,False
+mex,Mexico,Central America,América Latina e Caribe,México,False,False
+mhl,Marshall Islands,Micronesia,Oceania,Ilhas Marshall,False,False
+mkd,North Macedonia,Southern Europe,Europa,Macedônia do Norte,False,False
+mli,Mali,Western Africa,África,Mali,False,False
+mlt,Malta,Southern Europe,Europa,Malta,False,False
+mmr,Burma,South-eastern Asia,Sudeste Asiático,Mianmar,True,True
+mne,Montenegro,Southern Europe,Europa,Montenegro,False,False
+mng,Mongolia,Eastern Asia,Ásia Oriental,Mongólia,False,False
+mnp,Northern Mariana Islands,Micronesia,Oceania,Ilhas Marianas do Norte,False,False
+moz,Mozambique,Eastern Africa,África,Moçambique,False,False
+mrt,Mauritania,Western Africa,África,Mauritânia,False,False
+msr,Montserrat,Caribbean,América Latina e Caribe,Montserrat,False,False
+mus,Mauritius,Eastern Africa,África,Maurício,False,False
+mwi,Malawi,Eastern Africa,África,Malawi,False,False
+mys,Malaysia,South-eastern Asia,Sudeste Asiático,Malásia,True,True
+myt,Mayotte,Eastern Africa,África,Mayotte,False,False
+nam,Namibia,Southern Africa,África,Namíbia,False,False
+ncl,New Caledonia,Melanesia,Oceania,Nova Caledônia,False,False
+ner,Niger,Western Africa,África,Níger,False,False
+nfk,Norfolk Island,Australia and New Zealand,Oceania,Ilha Norfolk,False,False
+nga,Nigeria,Western Africa,África,Nigéria,False,False
+nic,Nicaragua,Central America,América Latina e Caribe,Nicarágua,False,False
+niu,Niue,Polynesia,Oceania,Niue,False,False
+nld,Netherlands,Western Europe,Europa,Países Baixos,False,False
+nor,Norway,Northern Europe,Europa,Noruega,False,False
+npl,Nepal,Southern Asia,Sul da Ásia,Nepal,False,False
+nru,Nauru,Polynesia,Oceania,Nauru,False,False
+nzl,New Zealand,Australia and New Zealand,Oceania,Nova Zelândia,True,False
+omn,Oman,Western Asia,Ásia Ocidental e Central,Omã,False,False
+pak,Pakistan,Southern Asia,Sul da Ásia,Paquistão,False,False
+pan,Panama,Central America,América Latina e Caribe,Panamá,False,False
+pcn,Pitcairn Islands,Polynesia,Oceania,Ilhas Pitcairn,False,False
+per,Peru,South America,América Latina e Caribe,Peru,False,False
+phl,Philippines,South-eastern Asia,Sudeste Asiático,Filipinas,True,True
+plw,Palau,Micronesia,Oceania,Palau,False,False
+png,Papua New Guinea,Melanesia,Oceania,Papua-Nova Guiné,False,False
+pol,Poland,Eastern Europe,Europa,Polônia,False,False
+prk,North Korea,Eastern Asia,Ásia Oriental,Coreia do Norte,False,False
+prt,Portugal,Southern Europe,Europa,Portugal,False,False
+pry,Paraguay,South America,América Latina e Caribe,Paraguai,False,False
+pse,Palestine,Western Asia,Ásia Ocidental e Central,Palestina,False,False
+pyf,French Polynesia,Polynesia,Oceania,Polinésia Francesa,False,False
+qat,Qatar,Western Asia,Ásia Ocidental e Central,Catar,False,False
+rou,Romania,Eastern Europe,Europa,Romênia,False,False
+rus,Russia,Eastern Europe,Europa,Rússia,False,False
+rwa,Rwanda,Eastern Africa,África,Ruanda,False,False
+sau,Saudi Arabia,Western Asia,Ásia Ocidental e Central,Arábia Saudita,False,False
+sdn,Sudan,Northern Africa,África,Sudão,False,False
+sen,Senegal,Western Africa,África,Senegal,False,False
+sgp,Singapore,South-eastern Asia,Sudeste Asiático,Singapura,True,True
+shn,Saint Helena,Western Africa,África,Santa Helena,False,False
+slb,Solomon Islands,Melanesia,Oceania,Ilhas Salomão,False,False
+sle,Sierra Leone,Western Africa,África,Serra Leoa,False,False
+slv,El Salvador,Central America,América Latina e Caribe,El Salvador,False,False
+smr,San Marino,Southern Europe,Europa,San Marino,False,False
+som,Somalia,Eastern Africa,África,Somália,False,False
+spm,Saint Pierre and Miquelon,Northern America,América do Norte,São Pedro e Miquelão,False,False
+srb,Serbia,Southern Europe,Europa,Sérvia,False,False
+ssd,South Sudan,Eastern Africa,África,Sudão do Sul,False,False
+stp,Sao Tome and Principe,Middle Africa,África,São Tomé e Príncipe,False,False
+sur,Suriname,South America,América Latina e Caribe,Suriname,False,False
+svk,Slovakia,Eastern Europe,Europa,Eslováquia,False,False
+svn,Slovenia,Southern Europe,Europa,Eslovênia,False,False
+swe,Sweden,Northern Europe,Europa,Suécia,False,False
+swz,Eswatini,Southern Africa,África,Essuatíni,False,False
+syc,Seychelles,Eastern Africa,África,Seicheles,False,False
+syr,Syria,Western Asia,Ásia Ocidental e Central,Síria,False,False
+tca,Turks and Caicos Islands,Caribbean,América Latina e Caribe,Ilhas Turcas e Caicos,False,False
+tcd,Chad,Middle Africa,África,Chade,False,False
+tgo,Togo,Western Africa,África,Togo,False,False
+tha,Thailand,South-eastern Asia,Sudeste Asiático,Tailândia,True,True
+tjk,Tajikistan,Central Asia,Ásia Ocidental e Central,Tajiquistão,False,False
+tkl,Tokelau,Polynesia,Oceania,Tokelau,False,False
+tkm,Turkmenistan,Central Asia,Ásia Ocidental e Central,Turcomenistão,False,False
+tls,TimorLeste,South-eastern Asia,Sudeste Asiático,Timor-Leste,False,False
+ton,Tonga,Polynesia,Oceania,Tonga,False,False
+tto,Trinidad and Tobago,Caribbean,América Latina e Caribe,Trinidad e Tobago,False,False
+tun,Tunisia,Northern Africa,África,Tunísia,False,False
+tur,Turkey,Western Asia,Ásia Ocidental e Central,Turquia,False,False
+tuv,Tuvalu,Polynesia,Oceania,Tuvalu,False,False
+twn,Chinese Taipei,Eastern Asia,Ásia Oriental,Taiwan,False,False
+tza,Tanzania,Eastern Africa,África,Tanzânia,False,False
+uga,Uganda,Eastern Africa,África,Uganda,False,False
+ukr,Ukraine,Eastern Europe,Europa,Ucrânia,False,False
+ury,Uruguay,South America,América Latina e Caribe,Uruguai,False,False
+usa,United States,Northern America,América do Norte,Estados Unidos,False,False
+uzb,Uzbekistan,Central Asia,Ásia Ocidental e Central,Uzbequistão,False,False
+vct,Saint Vincent and the Grenadines,Caribbean,América Latina e Caribe,São Vicente e Granadinas,False,False
+ven,Venezuela,South America,América Latina e Caribe,Venezuela,False,False
+vgb,British Virgin Islands,Caribbean,América Latina e Caribe,Ilhas Virgens Britânicas,False,False
+vnm,Vietnam,South-eastern Asia,Sudeste Asiático,Vietnã,True,True
+vut,Vanuatu,Melanesia,Oceania,Vanuatu,False,False
+wlf,Wallis and Futuna,Polynesia,Oceania,Wallis e Futuna,False,False
+wsm,Samoa,Polynesia,Oceania,Samoa,False,False
+yem,Yemen,Western Asia,Ásia Ocidental e Central,Iêmen,False,False
+zaf,South Africa,Southern Africa,África,África do Sul,False,False
+zmb,Zambia,Eastern Africa,África,Zâmbia,False,False
+zwe,Zimbabwe,Eastern Africa,África,Zimbábue,False,False
