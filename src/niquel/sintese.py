@@ -454,3 +454,59 @@ def figura_r5_mapa(d, base, n=20, nome="figR5_mapa_fluxos_cadeia"):
     from . import mapas as mp
     return mp.mapa_fluxos(d.assign(cadeia="total"), base, "cadeia", "total", PERIODOS, n=n,
                           nome=nome, titulo="", empilhar=True)
+
+
+# --------------------------------------------------------------------------------------------------
+# Tabela 1 do capítulo como imagem (o docx desconfigura a tabela em pipe)
+# --------------------------------------------------------------------------------------------------
+LINHAS_TABELA_PARCEIROS = [
+    ("chn", "imp", "750110", "Mates"), ("chn", "imp", "750120", "Sínteres e MHP"),
+    ("chn", "imp", "283324", "Sulfato"), ("chn", "imp", "720260", "Ferroníquel e NPI"),
+    ("chn", "imp", "260400", "Minério"), ("idn", "exp", "720260", "Ferroníquel e NPI"),
+    ("idn", "exp", "750120", "Sínteres e MHP"), ("idn", "exp", "750110", "Mates"),
+    ("phl", "exp", "260400", "Minério"),
+]
+
+
+def tabela_parceiros(res, linhas=LINHAS_TABELA_PARCEIROS):
+    """Linhas da Tabela 1 a partir de `parceiros.resumo(..., unica=True)` (t19)."""
+    lado_pt = {"exp": "exportações", "imp": "importações"}
+    reg = []
+    for m, lado, sh6, rot in linhas:
+        r = res[(res["membro"] == m) & (res["lado"] == lado) & (res["sh6"].astype(str) == sh6)].iloc[0]
+        reg.append({
+            "Membro e fluxo": f"{ind.nome(m)}, {lado_pt[lado]}", "Produto": rot,
+            "Valor antes": gr._num(r["valor_medio_antes"] / 1e9, 2),
+            "Valor depois": gr._num(r["valor_medio_depois"] / 1e9, 2),
+            "Principal parceiro, antes e depois":
+                f"{ind.nome(r['principal_antes'])} ({r['share_principal_antes'] * 100:.0f}%); "
+                f"{ind.nome(r['principal_depois'])} ({r['share_principal_depois'] * 100:.0f}%)",
+            "Índice": gr._num(r["indice_mudanca"], 2) + ("*" if r["acima_placebos"] else ""),
+            "Placebo máx.": gr._num(r["placebo_max"], 2),
+        })
+    return pd.DataFrame(reg)
+
+
+def figura_tabela_parceiros(tab, nome="tab01_parceiros_marco_2022"):
+    larg = [0.18, 0.15, 0.07, 0.07, 0.33, 0.08, 0.12]
+    alinh = ["left", "left", "right", "right", "left", "right", "right"]
+    n = len(tab)
+    fig, ax = plt.subplots(figsize=(10.5, 0.27 * (n + 2)))
+    ax.set_axis_off()
+    ax.set_xlim(0, 1)
+    ax.set_ylim(n + 1.3, 0)
+    xs = np.concatenate([[0], np.cumsum(larg)[:-1]])
+
+    def escrever(y, valores, **kw):
+        for x, w, a, v in zip(xs, larg, alinh, valores):
+            ax.text(x + (w - 0.01 if a == "right" else 0.005), y, v, ha=a, va="center", fontsize=8, **kw)
+
+    escrever(0.5, ["Membro e fluxo", "Produto", "Valor\nantes", "Valor\ndepois",
+                   "Principal parceiro, antes e depois", "Índice", "Placebo\nmáx."], fontweight="bold")
+    for y in (0, 1.1):
+        ax.axhline(y, color="k", lw=0.8)
+    for i, linha in enumerate(tab.itertuples(index=False)):
+        escrever(1.6 + i, list(linha))
+    ax.axhline(n + 1.1, color="k", lw=0.8)
+    gr.salvar(fig, nome, tab.set_index("Membro e fluxo"))
+    return fig

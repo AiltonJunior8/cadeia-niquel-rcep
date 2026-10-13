@@ -14,7 +14,7 @@ entrada em vigor da Parceria Econômica Regional Abrangente (RCEP), como marco p
 | Caminho | O que é |
 |---|---|
 | `outputs/planilha_artigo_niquel_rcep.xlsx` | Planilha para consulta: aba **Dados brutos** (fluxos bilaterais anuais dos nove SH6) e aba **Métricas** (dados de cada figura, da tabela e das séries citadas no texto), com uma aba de leia-me |
-| `outputs/figuras/` | Figuras geradas pelo notebook; as do artigo são `figR1` a `figR5` |
+| `outputs/figuras/` | Figuras geradas pelo notebook; as do artigo são `figR1` a `figR5` e a Tabela 1, em imagem (`tab01_parceiros_marco_2022`) |
 | `outputs/tabelas/` | Tabelas em CSV e os dados de cada figura em `dados_figuras/` |
 | `notebooks/analises_artigo.ipynb` | Pipeline completo, passo a passo, com validações (`assert`) ao fim de cada tratamento |
 | `src/niquel/` | Módulos: `config` (escopo: códigos, países, RCEP), `extracao`, `indicadores`, `parceiros`, `sintese`, `graficos`, `mapas`, `planilha` |
